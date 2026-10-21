@@ -1,0 +1,1 @@
+resourcePacks:["vanilla","fabric","file/FreshAnimations_v1.11.1_1.20+.zip"]

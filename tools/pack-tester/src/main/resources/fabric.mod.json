@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "pack-tester",
+	"version": "${version}",
+	"name": "Pack Tester",
+	"description": "Automated smoke test for Koi Atelier Vanilla+. Does nothing unless PACKTEST=1 is set.",
+	"authors": ["hamnnnyy"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["io.github.hamnnnyy.packtester.PackTester"]
+	},
+	"mixins": ["pack-tester.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"fabric-api": "*"
+	}
+}

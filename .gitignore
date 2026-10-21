@@ -1,0 +1,6 @@
+# 테스트 도구 빌드 결과
+tools/pack-tester/build/
+tools/pack-tester/.gradle/
+# 내보낸 모드팩, 테스트 인스턴스
+*.mrpack
+test-instance/

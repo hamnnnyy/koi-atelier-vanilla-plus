@@ -1,0 +1,21 @@
+plugins {
+	id 'fabric-loom' version "${loom_version}"
+}
+
+// 모드팩 자동 테스트용 모드 (배포하지 않음)
+version = '1.0.0'
+group = 'io.github.hamnnnyy'
+base {
+	archivesName = 'pack-tester'
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}

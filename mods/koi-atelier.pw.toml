@@ -1,0 +1,8 @@
+name = "Koi Atelier"
+filename = "koi-atelier-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/hamnnnyy/koi-atelier/releases/download/v1.0.1/koi-atelier-1.0.1.jar"
+hash-format = "sha256"
+hash = "93eb79d91a0370e576a0c6c4d40729936f25fa34a79e5f636b277aa84460fc24"

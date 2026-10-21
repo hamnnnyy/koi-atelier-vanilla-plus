@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "io.github.hamnnnyy.packtester.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": ["MinecraftClientMixin"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
