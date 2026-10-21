@@ -7,3 +7,4 @@ LICENSE
 .gitattributes
 .gitignore
 *.mrpack
+test-results/

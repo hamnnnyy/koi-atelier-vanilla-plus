@@ -173,27 +173,3 @@ metafile = true
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "507cb3963240110bc71ed7c75cac1682e66d3609536b0bc5ef90a01db3cce21f"
 metafile = true
-
-[[files]]
-file = "test-results/no-shaders/1_first_person.png"
-hash = "3b37200128d434dcc0717ceefda98fe9d1da2843bbaa6227fbc6d238a7d5ac2d"
-
-[[files]]
-file = "test-results/no-shaders/2_third_person.png"
-hash = "a0cdc6a54d7e415033ff85adf5fad0d81843844c941aea701503165291eb63de"
-
-[[files]]
-file = "test-results/no-shaders/3_mobs.png"
-hash = "8770a12c09215a376f78b8c4411cfde95d408b38c823668f545d9ff8355329e6"
-
-[[files]]
-file = "test-results/shaders/1_first_person.png"
-hash = "d7967b4ce667930ad8656634026a845139bb7ba3dfe139f31917c54f95282652"
-
-[[files]]
-file = "test-results/shaders/2_third_person.png"
-hash = "edfdbcfac457e9705f8ce052a5dfaa39d80e04d4dc06fd2bf6f414e65d5d55c1"
-
-[[files]]
-file = "test-results/shaders/3_mobs.png"
-hash = "dfe04cb557da645e20707bb9bc75deca7516a1d9a2133e0450c84c6a38898e47"
