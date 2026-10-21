@@ -1,0 +1,9 @@
+# 모드팩에 넣지 않을 파일 (저장소에만 있음)
+tools/
+test-instance/
+docs/
+README.md
+LICENSE
+.gitattributes
+.gitignore
+*.mrpack
