@@ -69,7 +69,7 @@
 ### 🛠 편의
 | 모드 | 하는 일 |
 |---|---|
-| [Koi Atelier](https://github.com/hamnnnyy/koi-atelier) | 코스메틱(잉어, 날개, 망토, 펫…), 좌표·미니맵, 줌(Z), 풀 브라이트(B) |
+| [Koi Atelier](https://github.com/hamnnnyy/koi-atelier) | 코스메틱(잉어, 날개, 망토, 펫…), 좌표·미니맵, 줌(Z), 풀 브라이트(B). 설정 화면은 `/koi open` |
 | [Jade](https://modrinth.com/mod/jade) | 바라보는 블록/몹 정보 |
 | [AppleSkin](https://modrinth.com/mod/appleskin) | 음식 포만감 수치 표시 |
 | [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | 인벤토리 드래그, 휠로 아이템 옮기기 |
@@ -119,6 +119,11 @@ PACKTEST=1 portablemc start fabric:1.21.1:0.19.5 --mc-dir test-instance -u Teste
 # → 로그의 [PackTest] 줄 (FPS), test-instance/screenshots/
 # 셰이더 테스트: test-instance/config/iris.properties 에 enableShaders=true
 ```
+
+## 📝 업데이트 내역
+
+- **[1.0.1](https://github.com/hamnnnyy/koi-atelier-vanilla-plus/releases/tag/v1.0.1)**: Koi Atelier 1.0.2 (`/koi open`, `/koi settings`로 설정 화면 열기)
+- **[1.0.0](https://github.com/hamnnnyy/koi-atelier-vanilla-plus/releases/tag/v1.0.0)**: 첫 릴리스
 
 ## 📄 라이선스
 

@@ -1,12 +1,12 @@
 name = "Koi Atelier Vanilla+"
 author = "hamnnnyy"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "cd3f15f7d0be3d38b9dcda254f8ab0178246741b4498aa569eddc9d216776630"
+hash = "64d28ead737588ed09efeb94b844aa4e12db6907c71fd49fd005756cc44e3bc6"
 
 [versions]
 fabric = "0.19.5"
