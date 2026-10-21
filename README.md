@@ -82,6 +82,11 @@
 
 > 미니맵, 줌, 좌표는 Koi Atelier에 있어서 같은 기능의 모드를 따로 넣지 않았어요.
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/hamnnnyy/koi-atelier/main/docs/media/open.webp" width="560" alt="채팅에 /koi open aura를 입력해 오라 설정 페이지를 바로 여는 모습"><br>
+<sub><code>/koi open aura</code>로 오라 페이지를 바로 열기 (1.0.1부터, <a href="https://github.com/hamnnnyy/koi-atelier-vanilla-plus/releases/download/v1.0.1/koi-atelier-1.0.2-open-command.mp4">60fps 영상</a>)</sub>
+</div>
+
 ---
 
 ## ✅ 테스트
