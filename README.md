@@ -90,9 +90,12 @@
 
 | 항목 | 결과 (1.0.0) |
 |---|---|
-| 로딩 | 크래시 없음, 타이틀 → 월드 진입 → 정상 종료 |
-| FPS (셰이더 끔, 1280×720, RTX 3070 Ti) | 평균 **107**, 최저 28 (시점을 돌리며 새 청크 로딩 중) |
-| 셰이더 | Iris 1.8.8 + Complementary Reimagined에서 Koi Atelier 코스메틱 정상 표시 |
+| 로딩 | 크래시 없음, 타이틀 → 월드 진입 → 정상 종료 (셰이더 끔/켬 모두) |
+| FPS, 셰이더 끔 | 평균 **293**, 최저 230 |
+| FPS, 셰이더 켬 (Complementary Reimagined) | 평균 **117**, 최저 98 |
+| 화면 | Jade, Fresh Animations, Koi Atelier 코스메틱·HUD가 셰이더를 켜도 정상 표시 |
+
+> FPS: 1280×720, RTX 3070 Ti · i5-13400F, 수직 동기화와 프레임 제한을 끄고 시점을 한 바퀴 돌리며 10초 측정
 
 Sodium은 Iris 1.8과 호환되는 **0.6.13으로 고정**해 뒀어요 (Sodium 0.8은 Iris 1.8과 같이 쓸 수 없어요).
 
@@ -114,6 +117,7 @@ python tools/install_mrpack.py "Koi Atelier Vanilla+-<버전>.mrpack" test-insta
 # tools/pack-tester 를 빌드해서 test-instance/mods 에 넣고
 PACKTEST=1 portablemc start fabric:1.21.1:0.19.5 --mc-dir test-instance -u Tester
 # → 로그의 [PackTest] 줄 (FPS), test-instance/screenshots/
+# 셰이더 테스트: test-instance/config/iris.properties 에 enableShaders=true
 ```
 
 ## 📄 라이선스

@@ -75,7 +75,12 @@ public class PackTester implements ClientModInitializer {
 
         ticks++;
         switch (ticks) {
-            case 1 -> log("world joined");
+            case 1 -> {
+                log("world joined");
+                // FPS를 제대로 재려고 테스트하는 동안만 수직 동기화와 프레임 제한을 끔
+                mc.options.getEnableVsync().setValue(false);
+                mc.options.getMaxFps().setValue(260);
+            }
             case 20 -> cmd(mc, "time set 6000", "weather clear", "gamerule doDaylightCycle false");
             case 60 -> {
                 look(mc, Perspective.FIRST_PERSON, 0, 10);
@@ -86,7 +91,9 @@ public class PackTester implements ClientModInitializer {
             case 100 -> pendingShot = "2_third_person.png";
             case 102 -> {
                 cmd(mc, "koi halo false", "koi wings false", "koi pet false", "koi head_text clear",
-                        "summon cow ^-2 ^ ^4", "summon sheep ^ ^ ^5", "summon pig ^2 ^ ^4", "summon chicken ^1 ^ ^3");
+                        // AI 없이 소환해서 나무 위 등에서도 떨어지지 않고 제자리에
+                        "summon cow ^-2 ^ ^4 {NoAI:1b}", "summon sheep ^ ^ ^5 {NoAI:1b}", "summon pig ^2 ^ ^4 {NoAI:1b}",
+                        "summon chicken ^1 ^ ^3 {NoAI:1b}");
                 look(mc, Perspective.FIRST_PERSON, 0, 15);
             }
             case 140 -> pendingShot = "3_mobs.png";

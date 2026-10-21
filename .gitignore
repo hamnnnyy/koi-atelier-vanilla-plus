@@ -4,3 +4,4 @@ tools/pack-tester/.gradle/
 # 내보낸 모드팩, 테스트 인스턴스
 *.mrpack
 test-instance/
+test-results/
